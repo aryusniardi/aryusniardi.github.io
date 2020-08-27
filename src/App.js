@@ -7,7 +7,6 @@ import Intro from './components/sections/introSection/intro'
 import About from './components/sections/aboutSection/about'
 import Tab from './components/tabs'
 
-
 function App() {
   return(
     <React.Fragment>
