@@ -1,0 +1,15 @@
+$--primary: #5f85db;
+$--secondary: #90b8f8;
+$--dark-1: #353941;
+$--dark-2: #26282b;
+$--light-1: #eeeeee;
+
+* {
+    font-family: 'Montserrat',
+    sans-serif;
+    box-sizing: border-box;
+}
+
+.color-primary {
+    color: $--primary;
+}
