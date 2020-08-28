@@ -58,10 +58,10 @@ export default class Contact extends Component {
                                 <h3>{skill}</h3>
                             ))}
                             <div className="content-url">
-                                <Link className="content-button" to={project.url}>
+                                <a className="content-button" href={project.url}>
                                     <FontAwesomeIcon icon={faGithub}/>
                                     Source Code
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
