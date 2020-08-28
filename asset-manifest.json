@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aryusniardi.github.io/static/css/main.e1a3a838.chunk.css",
+    "main.css": "/aryusniardi.github.io/static/css/main.7a86844d.chunk.css",
     "main.js": "/aryusniardi.github.io/static/js/main.4e890ced.chunk.js",
     "main.js.map": "/aryusniardi.github.io/static/js/main.4e890ced.chunk.js.map",
     "runtime-main.js": "/aryusniardi.github.io/static/js/runtime-main.397756b4.js",
@@ -8,15 +8,15 @@
     "static/js/2.05bd8730.chunk.js": "/aryusniardi.github.io/static/js/2.05bd8730.chunk.js",
     "static/js/2.05bd8730.chunk.js.map": "/aryusniardi.github.io/static/js/2.05bd8730.chunk.js.map",
     "index.html": "/aryusniardi.github.io/index.html",
-    "precache-manifest.670074bf44387d9027e9af843c509063.js": "/aryusniardi.github.io/precache-manifest.670074bf44387d9027e9af843c509063.js",
+    "precache-manifest.bb43cc73d09b73e0a5852ea270117a2a.js": "/aryusniardi.github.io/precache-manifest.bb43cc73d09b73e0a5852ea270117a2a.js",
     "service-worker.js": "/aryusniardi.github.io/service-worker.js",
-    "static/css/main.e1a3a838.chunk.css.map": "/aryusniardi.github.io/static/css/main.e1a3a838.chunk.css.map",
+    "static/css/main.7a86844d.chunk.css.map": "/aryusniardi.github.io/static/css/main.7a86844d.chunk.css.map",
     "static/js/2.05bd8730.chunk.js.LICENSE.txt": "/aryusniardi.github.io/static/js/2.05bd8730.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.397756b4.js",
     "static/js/2.05bd8730.chunk.js",
-    "static/css/main.e1a3a838.chunk.css",
+    "static/css/main.7a86844d.chunk.css",
     "static/js/main.4e890ced.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60f7ee2518580f11aa36626105fcb251",
+    "revision": "2ef39c14715e348e891170a9f71a0fd1",
     "url": "/aryusniardi.github.io/index.html"
   },
   {
-    "revision": "4a85d25eccc34cc21ccd",
-    "url": "/aryusniardi.github.io/static/css/main.e1a3a838.chunk.css"
+    "revision": "4ba960043f7eaaf097ef",
+    "url": "/aryusniardi.github.io/static/css/main.7a86844d.chunk.css"
   },
   {
     "revision": "b14a308334a2a5b9526b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aryusniardi.github.io/static/js/2.05bd8730.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a85d25eccc34cc21ccd",
+    "revision": "4ba960043f7eaaf097ef",
     "url": "/aryusniardi.github.io/static/js/main.4e890ced.chunk.js"
   },
   {
