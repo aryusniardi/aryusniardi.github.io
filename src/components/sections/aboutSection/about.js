@@ -34,17 +34,6 @@ export default class About extends Component {
                         </p>
                     </div>
                 </div>
-                <div className="about-hobbies">
-                    <h1>Hobbies</h1>
-                    {
-                        this.state.hobi.map((hobby) => (
-                            <div className="hobby">
-                                <FontAwesomeIcon icon={hobby.icon}/>
-                                <p>{hobby.hobby}</p>
-                            </div>
-                        ))
-                    }
-                </div>
             </div>
         )
     }
