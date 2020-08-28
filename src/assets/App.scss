@@ -9,12 +9,13 @@
   .tab {
     cursor: pointer;
     padding: 12px 36px;
-    margin: 0 12px;
-    font-size: 12px;
+    font-size: 1rem;
     transition: opacity 0.3s ease-in-out;
     color: $--dark-1;
     border-bottom: 2px solid transparent;
-    
+    width: 25%;
+    text-align: center;
+
     &:hover {
       border-bottom: 2px solid $--primary;
     }
@@ -24,6 +25,11 @@
       font-weight: 700;
       border-bottom: 2px solid $--primary;
     }
+
+    @media screen and (max-width: 400px) {
+      font-size: 0.8rem;
+      text-align: center;
+    }
   }
 }
 
@@ -32,6 +38,7 @@
   min-height: 87.1vh;
   display: flex;
   color: $--dark-1;
+  width: 100% auto;
 }
 
 .intro {
@@ -105,15 +112,10 @@
     background-color: $--dark-1;
 
     .intro-background {
-      position: absolute;
-      display: flex;
       background: $--dark-1;
       
       img {
-        max-width: 100vw !important;
-        height: auto;
-        position: absolute;
-        bottom: 0;
+        max-width: 75vw !important;
       }
     }
     
@@ -156,24 +158,66 @@
   margin: auto;
 
   .about-content {
-    display: block;
+    display: flex;
+    margin: auto;
     width: 100%;
+    padding: 13vh 0vw;
+    height: fit-content;
     
     .about-description {
       display: block;
       margin: auto;
-      width:60%;
+      width:75%;
       text-align: center;
 
       p {
         padding: 0;
         margin: 0;
-        font-size: 3rem;
+        font-size: 2.7rem;
         color: lighten($--dark-2, 15%);
+
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+        }
       }
     }
   }
 
+  .about-hobbies {
+    box-sizing: border-box;
+
+    h1 {
+      border-bottom: 3px solid $--primary;
+      padding-bottom: 10px;
+      margin-bottom: 5vh;
+      width: fit-content;
+    }
+    
+    .hobby {
+      width: 25%;
+      float: left;
+      text-align: center;
+
+      svg {
+        font-size: 2rem;
+        color: $--primary;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      @media screen and (max-width: 498px) {
+        svg {
+          font-size: 5vw;
+        }
+        
+        p {
+          font-size: 2vw;
+        }
+      }
+    }
+  }
 }
 
 .education {
@@ -284,6 +328,68 @@
   }
 }
 
+.project {
+  width: 100%;
+  padding: 2vh 5vw;
+
+  h1 {
+    border-bottom: 3px solid $--primary;
+    padding-bottom: 10px;
+    margin-bottom: 2.5vh;
+    width: fit-content;
+
+    svg {
+      color: $--dark-1;
+      margin-left: 10px;
+    }
+  }
+
+  .project-content {
+    box-sizing: border-box;
+    display: flex;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid $--dark-1;
+    
+    .content-image {
+      width: 50%;
+
+      img {
+        margin: auto;
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .content {
+      width: 50%;
+      padding: 20px;
+      
+      h2 {
+        text-align: center;
+        font-size: 2.5rem;
+      }
+      
+      h3 {
+        display: inline;
+        align-content: space-between;
+        padding: 4px 16px;
+        margin: 0px 10px;
+        background: $--secondary;
+        border-radius: 4px;
+        color: $--light-1;
+        font-weight: 600;
+      }
+
+      p{
+        margin: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
 .contact {
   margin: auto;
   width: 400px;
@@ -294,12 +400,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 350px;
+    width: 100%;
     height: 450px;
     transform: translate(-50%, -50%);
-    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 5px 18px rgba(53, 57, 65, 0.2);
     cursor: pointer;
     transition: 0.5s;
   
