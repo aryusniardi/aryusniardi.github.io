@@ -29,6 +29,7 @@
     @media screen and (max-width: 400px) {
       font-size: 0.8rem;
       text-align: center;
+      padding: 4px 12px;
     }
   }
 }
@@ -310,6 +311,7 @@
     background-color: white;
     position: relative;
     border-radius: 6px;
+    
 
     h2 {
       color: $--dark-1;
@@ -324,6 +326,17 @@
     p {
       padding: 0;
       margin: 0;
+    }
+
+    @media screen and (max-width: 540px) {
+      padding: 5px 5px;
+      h2 {
+        font-size: 2.5vw;
+      }
+
+      p {
+        font-size: 2vw;
+      }
     }
   }
 }
@@ -352,12 +365,20 @@
     margin-bottom: 20px;
     border-bottom: 2px solid $--dark-1;
     
+    @media screen and (max-width: 812px) {
+      display: block;
+    }
+    
     .content-image {
       width: 50%;
 
       img {
         margin: auto;
         height: auto;
+        width: 100%;
+      }
+
+      @media screen and (max-width: 812px) {
         width: 100%;
       }
     }
@@ -385,6 +406,10 @@
       p{
         margin: 10px;
         margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 812px) {
+        width: 100%;
       }
     }
   }

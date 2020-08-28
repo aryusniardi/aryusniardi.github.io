@@ -13,13 +13,19 @@ export default class Contact extends Component {
                     image: '2.png',
                     title: 'Revelry',
                     skill: ['HTML', 'CSS', 'Bootstrap', 'PHP'],
-                    story: `Last Project from Web Programing lecture on campus, creating e-commerce system using PHP framework CodeIgniter`
+                    story: `Last Project from Web Programing lecture on campus, creating e-commerce system using PHP framework CodeIgniter`,
                 },
                 {
                     image: '1.png',
                     title: 'Netflix interface clone using React.JS',
                     skill: ['HTML', 'SASS', 'React.JS'],
-                    story: `I learn to use react and trying to cloning Netflix interface using React.JS`
+                    story: `I learn to use react and trying to cloning Netflix interface using React.JS`,
+                },
+                {
+                    image: '3.png',
+                    title: 'Kedai Fesyen',
+                    skill: ['Laravel', 'SASS', 'Vue.JS'],
+                    story: `Last Project from Web Technology 2.0 lecture on campus, creating e-commerce system using PHP framework Laravel and Vue.JS`,
                 },
             ]
         }
