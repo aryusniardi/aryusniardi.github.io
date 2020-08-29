@@ -56,7 +56,7 @@ export default class Contact extends Component {
                             <p>{project.story}</p>
                             {project.skill.map((skill) => (
                                 <h3>{skill}</h3>
-                            ))}
+                                ))}
                             <div className="content-url">
                                 <a className="content-button" href={project.url}>
                                     <FontAwesomeIcon icon={faGithub}/>

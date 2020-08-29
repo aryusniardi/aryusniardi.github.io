@@ -11,6 +11,7 @@
     cursor: pointer;
     padding: 12px 36px;
     font-size: 1rem;
+    margin: auto;
     transition: opacity 0.3s ease-in-out;
     color: $--dark-1;
     border-bottom: 2px solid transparent;
@@ -442,12 +443,22 @@
         margin-bottom: 20px;
       }
 
-      @media screen and (max-width: 812px) {
+      @media screen and (max-width: 812px)  {
         width: 100%;
 
         h3 {
           font-size: 1rem;
         margin: 0px 2px;
+
+        }
+      }
+
+      @media screen and (max-width: 340px) {
+        width: 100%;
+
+        h3 {
+          font-size: .7rem;
+          margin: 0px 2px;
 
         }
       }

@@ -6,7 +6,9 @@ export default class Contact extends Component {
 
         this.state = {
             educations: [
-                {id: 1, year: '2017', education: 'Paket C'},
+                {id: 1, year: '2009 - 2011', education: 'SMPN 2 Cimahi'},
+                {id: 2, year: '2011', education: 'SMAN 4 Bandung'},
+                {id: 1, year: '2016', education: 'Paket C'},
                 {id: 2, year: '2017 - Now', education: 'Politeknik TEDC Bandung', degree: 'Diploma - IV', description: 'Informatics Engineer'}
             ]
         }
