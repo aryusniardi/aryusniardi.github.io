@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b246f4135e2402030a166ebd7f7278fd",
+    "revision": "67956474560595989a298643e8af2912",
     "url": "/aryusniardi.github.io/index.html"
   },
   {
-    "revision": "28815d368396382f38b6",
+    "revision": "876d49b1863fa53b66f1",
     "url": "/aryusniardi.github.io/static/css/main.fcebcb74.chunk.css"
   },
   {
-    "revision": "fb54e458224ace2b84ce",
-    "url": "/aryusniardi.github.io/static/js/2.7c639b13.chunk.js"
+    "revision": "a226ffca33cfc6052abb",
+    "url": "/aryusniardi.github.io/static/js/2.f95b4e30.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/aryusniardi.github.io/static/js/2.7c639b13.chunk.js.LICENSE.txt"
+    "url": "/aryusniardi.github.io/static/js/2.f95b4e30.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28815d368396382f38b6",
-    "url": "/aryusniardi.github.io/static/js/main.bb11c125.chunk.js"
+    "revision": "876d49b1863fa53b66f1",
+    "url": "/aryusniardi.github.io/static/js/main.d7df78dc.chunk.js"
   },
   {
     "revision": "e6b4589445deda648277",
